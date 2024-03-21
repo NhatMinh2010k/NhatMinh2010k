@@ -13,7 +13,7 @@ getgenv().Configs = {
     StartKaitun = true,
     -- World 1
     AutoPole = false, -- จะตีเเค่ถ้ามันเกิดไม่ได้ตีจนกว่าจะได้
-    AutoSaber = true,
+    AutoSaber = false,
 
     AutoSecondSea = true,
     -- World 2
@@ -24,10 +24,10 @@ getgenv().Configs = {
     AutoCursedCaptain = true,
     AutoDarkbeard = false,
     AutoFactory = true,
-    AutoShishui = true,
-    AutoSaddi = true,
-    AutoWando = true,
-    AutoTrueTripleKatana = true,
+    AutoShishui = false,
+    AutoSaddi = false,
+    AutoWando = false,
+    AutoTrueTripleKatana = false,
     AutoThirdSea = true,
     SkipGetItemGuitar = true, -- จะไม่ หาของทำ soul guiter ในโลก 2 เบบ หาจนกว่าจะได้ will not find item until get all item for do soul guiter ( open recommend เเนะนำให้เปิด )
     AlliesFruit = {"Magma-Magma","Dough-Dough"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
@@ -42,7 +42,7 @@ getgenv().Configs = {
     AutoYama = true,
     AutoCanvander = false,
     AutoSoulGuitar = true, 
-    AutoRainbowHaki = true,
+    AutoRainbowHaki = false,
     AutoCursedDualKatana = true,
 
     -- Fighting Style 
@@ -87,7 +87,7 @@ getgenv().Configs = {
     -- Webhook
 
     StartWebhook = true,
-    WebhookURL = "",
+    WebhookURL = "https://discord.com/api/webhooks/1206496938594140181/E_QCZFuWpud4RvLTwXIoV_0BfH7XkAIl6svMAs7-RJUyOOsOtpHcYPCdK4veOabjkpNw",
     WebhookSettings = "Send Every 10 min", -- "Send Every 10 min","Send On Level Max And Every 10 min"
 
     -- CPU
