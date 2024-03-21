@@ -73,10 +73,10 @@ getgenv().Configs = {
 
     -- Devil Fruit
 
-    SelectMainDF = {"Dough-Dough"}, -- ผลหลักที่จะกินเเทนผลรอง
-    SelectSubDF = {"Dough-Dough",}, -- ผลรองจะกินไว้ก่อนเเล้วพอผลหลักมีก้จะเปลียนไปกินผิดหลัก
-    AllowEatDFInventory = true,
-    StartSniper = true,
+    SelectMainDF = {""}, -- ผลหลักที่จะกินเเทนผลรอง
+    SelectSubDF = {"",}, -- ผลรองจะกินไว้ก่อนเเล้วพอผลหลักมีก้จะเปลียนไปกินผิดหลัก
+    AllowEatDFInventory = false,
+    StartSniper = false,
 
     -- RAM
 
@@ -86,13 +86,13 @@ getgenv().Configs = {
 
     -- Webhook
 
-    StartWebhook = true,
+    StartWebhook = false,
     WebhookURL = "https://discord.com/api/webhooks/1206496938594140181/E_QCZFuWpud4RvLTwXIoV_0BfH7XkAIl6svMAs7-RJUyOOsOtpHcYPCdK4veOabjkpNw",
     WebhookSettings = "Send Every 10 min", -- "Send Every 10 min","Send On Level Max And Every 10 min"
 
     -- CPU
 
-    LockFPS = 15,
+    LockFPS = 120,
     LockFPSNow = true,
     WhiteScreen = true
 }
